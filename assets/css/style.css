@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(5,auto);
+
+    
+    gap: 15px;
+}
+.container form input{
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    padding: 15px;
+}
+.container form label{
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+
+
+}
+.container form h1, .get h1{
+ 
+    color: white;
+    text-align: center;
+    font-size: 100px;
+
+}
+.container form button{
+    background-color: black;
+    padding: 15px;
+    width: 100px;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.container form button:hover{
+    background-color: white;
+    color: black;
+}
+#out{
+    background-color: black;
+    padding: 15px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    margin-top: 50px;
+}
+#out:hover{
+    background-color: white;
+    color: black;
+}
+.get .contain{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,250px);
+    gap: 100px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+    border: none;
+}
+.get .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.get .card img{
+    border-radius: 50%;
+    border: none;
+}
+.get .card h1{
+    font-size: 20px;
+    text-align: center;
+}
+.get .card p{
+    color: gray;
+    text-align: center;
+}
